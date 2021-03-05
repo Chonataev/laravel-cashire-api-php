@@ -28,6 +28,9 @@
     },
     "extra": {
         "laravel": {
+            "dont-discover": [
+            "laravel/dusk"
+        ],
           "providers": [
             "Cashier\\CashierProvider"
           ],
