@@ -4,7 +4,7 @@ namespace Cashier;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
-class CashierProvider extends BaseServiceProvider{
+class CashierServiceProvider extends BaseServiceProvider{
     /**
          * Bootstrap any package services.
          *
