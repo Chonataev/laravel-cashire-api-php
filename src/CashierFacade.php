@@ -8,6 +8,6 @@ class CashierFacade extends Facade{
 
     protected static function getFacadesAccessor(){
         
-        return CashierClient::class;
+        return 'cashier';
     }
 }
