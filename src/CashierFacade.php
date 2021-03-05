@@ -4,7 +4,7 @@ namespace Cashier;
 
 use Illuminate\Support\Facades\Facade;
 
-class CahierFacade extends Facade{
+class CashierFacade extends Facade{
 
     protected static function getFacadesAccessor(){
         
