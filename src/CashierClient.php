@@ -1,7 +1,7 @@
 <?php
 
 namespace Cashier;
-use Cashier\Client as CashierApiClient;
+use Cashier\Client;
 class CashierClient{
 
     public function __cunstruct(){
