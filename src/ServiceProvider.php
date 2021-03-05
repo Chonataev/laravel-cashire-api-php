@@ -26,6 +26,8 @@ class ServiceProvider{
             $this->mergeConfigFrom(
                 __DIR__.'/../config/cashier.php', 'cashier'
             );
-            $this->app->singleton(CashierClient::class);
+            $this->app->singleton('cashier', function () {
+                return $this->app->make('Cashier\CahierClient');
+            });
         }
 }
