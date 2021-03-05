@@ -2,8 +2,6 @@
 
 namespace Cashier;
 
-use Cashier\Client;
-
 class CashierClient{
 
     public function __cunstruct(){
