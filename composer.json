@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "CashierCashierServiceProvider"
+                "Cashier\\CashierServiceProvider"
             ],
             "aliases": {
                 "Debugbar": "Cashier\\CashierFacade"
@@ -42,5 +42,9 @@
         
     "require-dev": {
         "orchestra/testbench": "^6.13"
-    }
+    },
+    
+    "scripts": {
+        "test": "phpunit"
+    },
 }
