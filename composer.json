@@ -3,11 +3,7 @@
     "description": "---",
     "type": "library",
     "keywords": [
-        "laravel",
-        "pakage",
-        "api",
-        "client",
-        "facade",
+        "laravel-cashire-api-php",
         "cashier"
     ],
     "license": "MIT",
