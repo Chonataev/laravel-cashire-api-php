@@ -29,10 +29,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cashier\\CashierServiceProvider"
+                "Cashier\\CashierProvider"
             ],
             "aliases": {
-                "Debugbar": "Cashier\\CashierFacade"
+                "Cashier": "Cashier\\CashierFacade"
             }
         }
     },
