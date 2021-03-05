@@ -38,9 +38,9 @@
             "dont-discover": [
             "laravel/dusk"
         ],
-          "providers": [
-            "Cashier\\CashierProvider"
-          ],
+          "providers": {
+            "Cashier": "Cashier\\CashierProvider"
+          },
           "aliases": {
             "Cashier": "Cashier\\CashierFacade"
           }
