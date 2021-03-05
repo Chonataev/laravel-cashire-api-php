@@ -13,7 +13,8 @@
             "email": "adgjoed1@gmail.com"
         }
     ],
-    "require": {
+    "minimum-stability": "dev",
+    "require": {"monolog/monolog": "1.0.*@beta",
         "php":"8.0.1"
     },
     "autoload": {
