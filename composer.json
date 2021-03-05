@@ -2,6 +2,14 @@
     "name": "chontaev/laravel-cashire-api-php",
     "description": "---",
     "type": "library",
+    "keywords": [
+        "laravel",
+        "pakage",
+        "api",
+        "client",
+        "facade",
+        "cashier"
+    ],
     "license": "MIT",
     "authors": [
         {
