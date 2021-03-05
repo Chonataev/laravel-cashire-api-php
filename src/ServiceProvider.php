@@ -14,7 +14,7 @@ class ServiceProvider{
         {
             $this->publishes([
                 __DIR__.'/../config/cashier.php' => config_path('cashier.php'),
-            ],'config');
+            ]);
         }
         /**
          * Register any application services.
