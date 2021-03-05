@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "evilfreelancer/resova-api-php": "^1.1",
+        "evilfreelancer/resova-api-php": "^1.2",
         "php":"8.0.1"
     },
     "autoload": {
