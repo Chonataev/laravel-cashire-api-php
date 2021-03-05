@@ -14,15 +14,9 @@
             "email": "adgjoed1@gmail.com"
         }
     ],
-    "config": {
-        "sort-packages": true
-    },
-    
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
         "evilfreelancer/resova-api-php": "^1.2",
-        "php":"8.0.1"
+        "php":">=5.6"
     },
     "autoload": {
         "psr-4": {
@@ -35,12 +29,9 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": [
-            "laravel/dusk"
-        ],
-          "providers": {
-            "Cashier": "Cashier\\CashierProvider"
-          },
+          "providers": [
+            "Cashier\\CashierProvider"
+          ],
           "aliases": {
             "Cashier": "Cashier\\CashierFacade"
           }
