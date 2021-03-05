@@ -26,8 +26,6 @@ class CashierProvider extends ServiceProvider{
             $this->mergeConfigFrom(
                 __DIR__.'/../config/cashier.php', 'cashier'
             );
-            $this->app->singleton('cashier', function () {
-                return $this->app->make('Cashier\CahierClient');
-            });
+            $this->app->bind(CashierClient::class);
         }
 }
