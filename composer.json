@@ -28,18 +28,14 @@
     },
     "extra": {
         "laravel": {
-            "providers": [
-                "Cashier\\CashierProvider"
-            ],
-            "aliases": {
-                "Cashier": "Cashier\\CashierFacade"
-            }
+          "providers": [
+            "Cashier\\CashierProvider"
+          ],
+          "aliases": {
+            "Cashier": "Cashier\\CashierFacade"
+          }
         }
-    },
-    "require-dev": {
-        "orchestra/testbench": "^6.13"
-    },
-    
+      },
     "scripts": {
         "test": "phpunit"
     }
