@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
           "providers": [
-            "Cashier\\CashierServiceProvider"
+            "Cashier\\\\CashierServiceProvider"
           ],
           "aliases": {
             "Cashier": "Cashier\\CashierFacade"
