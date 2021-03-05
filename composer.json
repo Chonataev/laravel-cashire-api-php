@@ -1,0 +1,38 @@
+{
+    "name": "chontaev/laravel-cashire-api-php",
+    "description": "---",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chontaev",
+            "email": "adgjoed1@gmail.com"
+        }
+    ],
+    "require": {
+        "php":"8.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cashier\\" : "./src"
+        }
+    },"autoload-dev": {
+        "psr-4": {
+            "Cashier\\Tests\\" : "./tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CashierCashierServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Cashier\\CashierFacade"
+            }
+        }
+    },
+        
+    "require-dev": {
+        "orchestra/testbench": "^6.13"
+    }
+}
