@@ -5,6 +5,7 @@
     "keywords": [
         "laravel-cashire-api-php",
         "cashier"
+
     ],
     "license": "MIT",
     "authors": [
@@ -13,6 +14,9 @@
             "email": "adgjoed1@gmail.com"
         }
     ],
+    "config": {
+        "sort-packages": true
+    },
     "require": {
         "evilfreelancer/resova-api-php": "^1.2",
         "php":"8.0.1"
