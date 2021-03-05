@@ -17,6 +17,8 @@
     "config": {
         "sort-packages": true
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "evilfreelancer/resova-api-php": "^1.2",
         "php":"8.0.1"
