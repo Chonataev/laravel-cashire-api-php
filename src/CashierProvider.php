@@ -26,6 +26,7 @@ class CashierProvider{
             $this->mergeConfigFrom(
                 __DIR__.'/../config/cashier.php', 'cashier'
             );
-            $this->app->bind(CashierClient::class);
+            $this->app->singleton(CashierClient::class);
+            $this->app->alias(CashierClient::class);
         }
 }
