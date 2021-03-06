@@ -5,13 +5,13 @@ namespace Cashier;
 class CashierClient{
 
     public function __cunstruct(){
-    //
+    //  
     }
 
     public function responseError($message)
     {
         $result['error']['message'] = $message;
-
+  
         return $result;
     }
 
